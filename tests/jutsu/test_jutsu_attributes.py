@@ -59,5 +59,5 @@ def test_jutsu_attributes_chidori(cria_jutsu_chidori):
         f' está sendo criado corretamente.'
 
     assert cria_jutsu_chidori.chakra_spend == 100, \
-        f'Verifique se o atributo jutsu_type da classe Jutsu' + \
+        f'Verifique se o atributo chakra_spend da classe Jutsu' + \
         f' está sendo criado corretamente.'
