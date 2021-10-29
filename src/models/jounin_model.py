@@ -1,9 +1,9 @@
-from ninja_model import Ninja
+from src.models.ninja_model import Ninja
 
 
 class Jounin(Ninja):
     #?
-    # super().__init__(ninja_level)
+    super().__init__(ninja_level)
     ninja_level = "Jounin"
 
     def __init__(self, name: str, clan: str, village: str, proficiency: dict = {'taijutsu': int, 'ninjutsu': int, 'genjutsu': int}, in_this_mission: bool = False):
@@ -36,8 +36,6 @@ class Jounin(Ninja):
             return f'O ninja {self.name} {self.clan} não está em nenhuma missão no momento'
         return f'O ninja {self.name} {self.clan} retornou em segurança da missão'
 
-
-# Etapa 2
 
 # Atributo de classe:
 # ninja_level : Uma string que recebe o valor "Jounin".

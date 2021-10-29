@@ -1,4 +1,4 @@
-from jutsu_model import Jutsu
+from src.models.jutsu_model import Jutsu
 
 
 class Ninja:
