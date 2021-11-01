@@ -1,9 +1,9 @@
-from src.models.ninja_model import Ninja
+from .ninja_model import Ninja
 
 
 class Jounin(Ninja):
     #?
-    super().__init__(ninja_level)
+    # super(ninja_level).__init__(ninja_level)
     ninja_level = "Jounin"
 
     def __init__(self, name: str, clan: str, village: str, proficiency: dict = {'taijutsu': int, 'ninjutsu': int, 'genjutsu': int}, in_this_mission: bool = False):
