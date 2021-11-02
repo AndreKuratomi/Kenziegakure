@@ -1,5 +1,7 @@
 def test_ninja_learn_jutsu_return(cria_ninja_naruto, cria_jutsu_rasengan):
+    print(cria_ninja_naruto.jutsu_list)
     result = cria_ninja_naruto.learn_jutsu(cria_jutsu_rasengan)
+    print(cria_ninja_naruto.jutsu_list)
     expected = 'O ninja Naruto Uzumaki acabou de aprender um novo jutsu: Rasengan'
 
     assert result == expected, \

@@ -15,7 +15,7 @@ class Ninja:
 
     def learn_jutsu(self, jutsu):
         self.jutsu_list.append(jutsu)
-        return f"O ninja {self.name} {self.clan} acabou de aprender um novo jutsu: {self.village.capitalize()}"
+        return f"O ninja {self.name} {self.clan} acabou de aprender um novo jutsu: {jutsu.jutsu_name.capitalize()}"
 
     @staticmethod
     def check_health(ninja_to_check):
