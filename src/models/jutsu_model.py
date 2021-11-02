@@ -14,10 +14,3 @@ class Jutsu():
         else:
             self.chakra_spend = chakra_spend
 
-
-rasengan = Jutsu('Rasengan', 'Vento', 'a', 20, -15)
-naruto = Jutsu('Naruto', 'Terra', 'z', 20, 0)
-alguem = Jutsu('Alguem', 'Terra', 'm', 20, 10)
-print(rasengan.__dict__)
-print(naruto.__dict__)
-print(alguem.__dict__)
